@@ -1,0 +1,37 @@
+.header{
+    margin-bottom: 30px !important;
+    background-color: white !important;
+    padding: 0 20px 0 0 !important;
+    border-radius: 6px !important;
+    box-shadow: 0px 2px 50px 0px rgba(0, 0, 0,0.2) !important;
+}
+
+.header .header_link{
+    font-weight: 500;
+    color: darkslategray;
+}
+.header .header_link:hover{
+    font-weight: 500;
+    color: rgb(83, 83, 226);
+}
+.header .header_active{
+    font-weight: 500;
+    color: rgb(83, 83, 226);
+}
+.header .header_home{
+    background-color: rgb(83, 83, 226);
+    color: white;
+    padding: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+}
+.header .header_left{
+    margin-right: auto;
+}
+.header .header_right{
+    display: flex;
+    align-items: center;
+}
