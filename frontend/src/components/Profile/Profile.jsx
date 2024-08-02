@@ -49,7 +49,7 @@ const Profile = () => {
         <CustomTimelineItem title={"Name"} text={Data.name}/>
         <CustomTimelineItem title="Birth Date" text={Data.DoB}/>
         <CustomTimelineItem title="Email" text={Data.email}/>
-        <CustomTimelineItem title="Facebook" text={Data.socials.facebook.text} link={'www.google.com'}/>
+        <CustomTimelineItem title="Facebook" text={Data.socials.facebook.text} link={Data.socials.facebook.link}/>
         <CustomTimelineItem title="LinkedIn" text={Data.socials.linkedin.text} link={Data.socials.linkedin.link}/>
         <CustomTimelineItem title="GitHub" text={Data.socials.github.text} link={Data.socials.github.link}/>
         </Barline>
