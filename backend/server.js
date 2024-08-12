@@ -16,7 +16,7 @@ app.post('/api/contact',(req,res)=>{
         service:'gmail',
         auth: {
             user: process.env.EMAIL,
-            pass: 'vecq lplu uvzs wolu',
+            pass: process.env.PASS,
           },
     })
     const mailOptions = {
